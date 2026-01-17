@@ -1,0 +1,49 @@
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+broadcast/
+!/broadcast/multi-chain/
+
+# Docs
+docs/
+
+# Environment variables - ignore ALL env files except examples
+.env
+.env.*
+!.env.example
+!.env.*.example
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.staging
+.env.staging.local
+
+# Coverage
+lcov.info
+coverage/
+
+# Dependencies
+node_modules/
+lib/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+deployments
